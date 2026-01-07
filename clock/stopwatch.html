@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Digital Clock & Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark">
+    <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="clock.html">Clock</a></li>
+        </ul>
+    </nav>
+    <!-- stopwatch------------------------------------------------------------------>
+    <div id="stopwatchContainer" class="page">
+        <h2>Stopwatch</h2>
+        <div id="stopwatch" class="timeDisplay">00:00:00</div>
+        <div id="clockDisplay" class="timeDisplay hidden"></div>
+        <div class="controls">
+            <button id="startBtn" class="controlBtn">Start</button>
+            <button id="stopBtn" class="controlBtn hidden">Stop</button>
+            <button id="resetBtn" class="controlBtn">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
